@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="%PUBLIC_URL%/css/bootstrap.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link href="%PUBLIC_URL%/select2.min.css" rel="stylesheet" />
+    <script src="%PUBLIC_URL%/select2.full.min.js"></script>
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <form id="filter_form" action="/search/agewell/result" method="post">
+      <input type="hidden" name="network_name" value=""/>
+      <input id="zipcode" name="zipcode" type="hidden" value="11542">
+      <input id="state" name="state" type="hidden" value="None">
+      <input id="countie_name" name="countie_name" type="hidden" value="none">
+      <input id="distance" name="distance" type="hidden" value="1">
+      <input id="distance_c" name="distance_c" type="hidden" value="">
+      <input id="providertype_name" name="providertype_name" type="hidden" value="Hospitals">
+      <input id="specialtie_name" name="specialtie_name" type="hidden" value="none">
+      <input id="language_name" name="language_name" type="hidden" value="none">
+      <input id="gender" name="gender" type="hidden" value="F">
+      <input id="acceptnew" name="acceptnew" type="hidden" value="none">
+      <input id="acceptmedicare" name="acceptmedicare" type="hidden" value="none">
+      <input id="handicapaccess" name="handicapaccess" type="hidden" value="none">
+      <input id="insurance_name" name="insurance_name" type="hidden" value="none">
+      <input id="customfield1desc" name="customfield1desc" type="hidden" value="none">
+      <input id="certifications" name="certifications" type="hidden" value>
+      <input id="practicename" name="practicename" type="hidden" value>
+      <input id="firstname" name="firstname" type="hidden" value>
+      <input id="lastname" name="lastname" type="hidden" value>
+      <input id="street_address" name="street_address" type="hidden" value>
+      <input id="city" name="city" type="hidden" value>
+    </form>
+    <div id="root"></div>
+    <div id="legendTop"></div>
+    <div id="legendBottom"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
