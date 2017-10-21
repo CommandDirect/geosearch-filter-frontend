@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+.filter-section {
+  border: 1px solid #dddddd;
+  box-shadow: 1px 1px 1px #dddddd;
+  margin-right: 8px;
+}
+
+.filter-field:not(:first-child) {
+  border-top: 1px solid #dddddd;
+}
+
+.filter-list {
+  margin-bottom: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.filter-header {
+  background-color: #fafafa;
+  display: flex;
+}
+
+.field-name {
+  color: #107d0e;
+  flex: 1;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.collapse-icon {
+  align-self: center;
+  text-align: right;
+  width: 16px;
+}
+
+.checkbox label {
+  padding-right: 8px;
+}
+
+input::placeholder {
+  color: lightgray;
+  font-style: italic;
+  letter-spacing: 1px;
+}
